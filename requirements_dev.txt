@@ -9,3 +9,4 @@ sphinx_rtd_theme
 isort
 flake8
 transifex-client
+gitpython>=3.1.27 # not directly required, pinned by Snyk to avoid a vulnerability
