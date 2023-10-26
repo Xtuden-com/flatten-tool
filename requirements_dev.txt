@@ -9,3 +9,4 @@ sphinx_rtd_theme
 isort
 flake8
 transifex-client
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
