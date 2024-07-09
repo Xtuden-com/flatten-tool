@@ -9,3 +9,4 @@ sphinx_rtd_theme
 isort
 flake8
 transifex-client
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
