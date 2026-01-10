@@ -1,5 +1,5 @@
 -e .[HTTP]
-urllib3>=1.24.2
+urllib3>=2.6.3
 pytest<5
 pytest-cov
 coveralls
@@ -9,3 +9,4 @@ sphinx_rtd_theme
 isort
 flake8
 transifex-client
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
